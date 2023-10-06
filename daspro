@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    int nomor;
+    char jenisKartu;
+    int kartu[5];
+    char kartu2[5];
+    for (int i = 0; i < 5; i++)
+    {
+        cout << "Angka Kartu :";
+        cin >> nomor;
+        kartu[i] = nomor;
+        cout << "Jenis Kartu :";
+        cin >> jenisKartu;
+        kartu2[i] = jenisKartu;
+    }
+    for (int i = 0; i < 5; i++)
+    {
+        cout << kartu[i] << kartu2[i] << " ";
+    }
+    cout << endl;
+    cout << "straight";
+    if (kartu[0])
+}
